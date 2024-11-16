@@ -29,3 +29,10 @@ Contribuciones
 Notas:
 Si deseas personalizar el rango de IP o el intervalo de escaneo, puedes modificar la configuración en el archivo de parámetros del proyecto.
 Ten en cuenta que la herramienta debe ejecutarse con privilegios suficientes para utilizar Nmap en la red local.
+
+## Features
+
+-Escaneo de dispositivos en la red local: Utiliza Nmap para identificar todos los dispositivos activos en la red, obteniendo sus direcciones IP y otros detalles relevantes.
+-Generación de logs: Crea un archivo de log donde se registra información sobre los dispositivos nuevos que se unen a la red, permitiendo un seguimiento histórico.
+-Actualización de JSON: Actualiza un archivo JSON con los dispositivos detectados, manteniendo un registro persistente y accesible de todos los dispositivos que han sido identificados en la red.
+-Detección en tiempo real: El escaneo de la red se puede realizar en intervalos regulares, asegurando que el registro se mantenga actualizado.
